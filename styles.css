@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("Import/bg.jpg");
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #251b1b;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    padding-top: 100px;
+}
+
+header {
+    background-image: url("Import/Rectangle\ 428.png");
+    padding: 2px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.home {
+    padding: 5px;
+    background-image: url("Import/bga.png");
+    background-repeat:no-repeat ;
+    justify-content: center;
+    width: 80%;
+    align-items: center;
+}
+
+
+figure {
+    align-items: center;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #ddd;
+}
+
+.logo {
+    color: #fff;
+    text-decoration: none;
+    margin-right: auto; 
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+  }
+
+#drop-zone {
+    width: 200px;
+    height: 200px;
+    border: 2px dashed #ccc;
+    margin: 20px auto;
+    text-align: center;
+    padding: 10px;
+}
+
+footer {
+    margin-top: auto;
+    text-align: center;
+    background: white;
+    color: black;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    body {
+        background-size: 100% 100vh; 
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    body {
+        background-size: 100% 50vh; 
+    }
+}
